@@ -499,7 +499,7 @@ class Boat extends Vehicle {
 */
 
 //Code Here
-let myFirstBoat = new Boat(8,"black",1999,"Big Booty Chaser, Arggggh","speed boat",false )
+let myFirstBoat = new Boat(8,"black",1999,"el Pirate","speed boat",false )
 
 /*
   Call the checkSeaworthiness method on your new boat
