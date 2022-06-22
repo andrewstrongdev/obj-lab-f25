@@ -265,6 +265,25 @@ castSpell(){
 */
 
 //Code Here
+class Phone{
+  constructor(brand, model, storage, color, price, sold) {
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false;
+}
+sell(){
+  this.sold = true;
+}
+
+changePrice(newPrice){
+  this.price = newPrice;
+}
+}
+
+
 
   
 /*
@@ -278,6 +297,10 @@ castSpell(){
 */
 
 //Code Here
+let phone = new Phone("iPhone", "x", 64, "black noir", 999, )
+let phone2 = new Phone("iPhone", "x", 64, "pearl", 999)
+let phone3 = new Phone("iPhone", "x", 64, "navy", 999)
+
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -287,6 +310,8 @@ castSpell(){
 */ 
 
 //Code Here 
+phone.changePrice(899)
+//console.log(phone)
 
 
 /*
@@ -296,6 +321,8 @@ castSpell(){
 */
 
 //Code Here 
+phone2.sell()
+//console.log(phone2)
 
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
